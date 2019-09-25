@@ -22,7 +22,7 @@ Every Spider you create holds their own path that they're currently in, meaning 
     
     listFiles() - Returns an array of all files.
     
-    get(String file) - Returns a JSONObject of the file you specify.
+    get(String file) - Returns a JSONObject (https://github.com/stleary/JSON-java) of the file you specify. 
     
     exists(String file) - Returns whether the file exists.
     
