@@ -7,3 +7,13 @@ gradle.properties
 gradlew
 gradlew.bat
 jsonified.iml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules/jsonified.api.iml
+.idea/modules/jsonified.main.iml
+.idea/modules/jsonified.test.iml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+src/main/resources/mcmod.info
