@@ -1,0 +1,9 @@
+# Project exclude paths
+/.gradle/
+/build/
+/out/
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+jsonified.iml

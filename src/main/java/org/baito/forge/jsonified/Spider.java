@@ -20,7 +20,7 @@ public class Spider {
     }
 
     public Spider(String path) {
-        this.path = Paths.get(configPath + path);
+        this.path = path.charAt(0) == '\\' ? Paths.get(configPath + path) : Paths.get(configPath + "\\" + path);
     }
 
     public Spider in(String direc) {
@@ -29,7 +29,9 @@ public class Spider {
     }
 
     public Spider out() {
-        path = path.getParent();
+        if (path.getParent().startsWith(configPath)) {
+            path = path.getParent();
+        }
         return this;
     }
 
